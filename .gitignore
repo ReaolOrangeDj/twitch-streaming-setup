@@ -1,0 +1,41 @@
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# OBS-specific
+*.json-backup
+scene-collections/
+profiles/
+
+# Large asset files (consider using Git LFS for videos/large animations)
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.webm
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# Secrets and API keys
+config/secrets/*
+!config/secrets/README.md
+!config/secrets/.gitignore
+
+# Temporary files
+tmp/
+temp/
+.cache/
+*.log
+
+# IDE/VS Code
+.vscode/
+.idea/
+*.swp
+*~
